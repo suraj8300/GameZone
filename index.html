@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameZone - Your Fun Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <!-- Header -->
+    <header class="bg-blue-600 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <h1 class="text-2xl font-bold">GameZone</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#home" class="hover:underline">Home</a></li>
+                    <li><a href="#games" class="hover:underline">Games</a></li>
+                    <li><a href="#about" class="hover:underline">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-blue-500 text-white py-20 text-center">
+        <h2 class="text-4xl font-bold mb-4">Dive into the World of Fun!</h2>
+        <p class="text-lg mb-6">Play simple and engaging games anytime, anywhere.</p>
+        <a href="#games" class="bg-white text-blue-600 px-6 py-2 rounded-lg font-bold hover:bg-gray-200">Explore Games</a>
+    </section>
+
+    <!-- Games Section -->
+    <section id="games" class="container mx-auto py-16 px-4">
+        <h3 class="text-3xl font-bold text-center mb-10">Our Games</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Game Card Example -->
+            <div class="bg-white rounded-lg shadow-lg p-4">
+                <img src="https://via.placeholder.com/300" alt="Game Thumbnail" class="w-full h-48 object-cover rounded-t-lg">
+                <h4 class="text-xl font-bold mt-4">Tic-Tac-Toe</h4>
+                <p class="text-sm text-gray-600">The classic game of strategy and fun!</p>
+                <a href="#" class="block bg-blue-500 text-white text-center py-2 rounded-lg mt-4 hover:bg-blue-600">Play Now</a>
+            </div>
+            <!-- Add more cards here dynamically -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-gray-200 py-16 px-4">
+        <div class="container mx-auto text-center">
+            <h3 class="text-3xl font-bold mb-6">About GameZone</h3>
+            <p class="text-lg text-gray-700">GameZone is your one-stop destination for simple, engaging games. Built with love and passion for making gaming accessible to everyone. Stay tuned as we expand our collection!</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 GameZone. All Rights Reserved.</p>
+            <p>Follow us on <a href="#" class="text-blue-400 hover:underline">Social Media</a></p>
+        </div>
+    </footer>
+</body>
+</html>
